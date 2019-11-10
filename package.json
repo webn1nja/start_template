@@ -2,7 +2,7 @@
     "name": "start_project",
     "version": "1.0.0",
     "description": "",
-    "author": "",
+    "author": "webn1nja",
     "license": "",
     "dependencies": {
         "browser-sync": "^2.26.7",

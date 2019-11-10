@@ -49,7 +49,7 @@ const srvConfig = {
     // tunnel: true,
     host: 'localhost',
     port: 9000,
-    logPrefix: "Frontend_k2a"
+    logPrefix: "webn1nja says"
 };
 
 // BrowserSync
