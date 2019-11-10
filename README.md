@@ -1,11 +1,11 @@
 # A simple start template with gulp, bower and sass
 
-##installation
+## installation
  bower i
  npm i
 
 
-##commands
+## commands
 to build: gulp build
 
 to build and watch: gulp bnw  
