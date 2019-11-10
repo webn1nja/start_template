@@ -1,4 +1,4 @@
-# A simple start template with gulp, bower and sass
+# A simple start template with gulp 4, bower and sass
 
 ## installation
  bower i
