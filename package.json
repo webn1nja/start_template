@@ -1,0 +1,21 @@
+{
+    "name": "start_project",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "license": "",
+    "dependencies": {
+        "browser-sync": "^2.26.7",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-imagemin": "^6.1.1",
+        "gulp-rigger": "^0.5.8",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify": "^3.0.2",
+        "gulp-watch": "^5.0.1",
+        "imagemin-pngquant": "^8.0.0",
+        "del": "^5.1.0"
+    }
+}

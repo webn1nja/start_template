@@ -1,0 +1,20 @@
+{
+  "name": "start_project",
+  "version": "0.0.0",
+  "authors": [
+    "k2a"
+  ],
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "3.4.1",
+    "bootstrap": "4.0"
+  }
+}
