@@ -1,4 +1,16 @@
 
+@import "partials/mixins.scss";
+@import "partials/fonts.scss";
+@import "partials/vars.scss";
+
+
+
 body {
   background-color: green;
+  font-family: $default-font;
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 800;
 }
