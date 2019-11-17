@@ -4,6 +4,7 @@
 @import "partials/vars.scss";
 
 
+
 body {
   font-size: 16px;
   min-width: 320px;
@@ -37,7 +38,7 @@ body {
 section, header {
   position: relative;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 section {
