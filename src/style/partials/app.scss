@@ -4,13 +4,109 @@
 @import "partials/vars.scss";
 
 
-
 body {
-  background-color: green;
+  font-size: 16px;
+  min-width: 320px;
+  position:relative;
+  line-height: 1.75;
   font-family: $default-font;
-  font-weight: 300;
+  opacity: 1;
+  height:100%;
+
+  &.ishome {
+
+    .site-header {
+      min-height: 700px;
+      height: 100vh;
+      background-color: $dark;
+      color: white;
+
+      .top-line {
+        padding-top: 40px;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+
+      }
+
+    }
+  }
+
 }
 
+section, header {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  background-color: #fff;
+}
+
+.logo {
+  img {
+    width: 125px;
+    height: auto;
+    margin-left: 45px;
+  }
+}
+
+.phone {
+  position:absolute;
+  right:85px;
+  top:44px;
+  font-family: 'fira-sans',sans-serif;
+  font-size: 22px;
+  white-space: nowrap;
+
+  .fas {
+    color: #555;
+    font-size: 22px;
+    margin-right: 3px;
+  }
+}
+
+.hamburger {
+  position: absolute;
+  right: 0;
+  top:34px;
+
+  .hamburger-box {
+    width: 34px;
+
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+      border-radius: 0;
+      width: 34px;
+      height: 2px;
+      background-color: #fff;
+    }
+  }
+}
+
+.mm-navbar {
+  height: auto;
+  position: relative;
+
+  .mm-title {
+    padding: 0;
+
+    img {
+    width: 128px;
+    height: auto;
+    margin: 10px 0 35px;
+    }
+  }
+}
+
+.mm-panels>.mm-panel:after, .mm-panels>.mm-panel:before {
+  height: 0;
+}
+
+.mm-panels>.mm-panel>.mm-listview:first-child, .mm-panels>.mm-panel>.mm-navbar+.mm-listview {
+  margin-top: 0;
+
+}
 strong {
   font-weight: 800;
 }
